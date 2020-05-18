@@ -1,0 +1,7 @@
+version: "1"
+rules:
+- base: master
+  upstream: wmcbrine:PDCurses
+  mergeMethod: rebase
+  conflictReviewers:
+  - zaucy
