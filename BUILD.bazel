@@ -14,5 +14,6 @@ cc_library(
         "//pdcurses",
     ] + select({
         "@bazel_tools//src/conditions:windows": ["//wincon"],
+        "@bazel_tools//src/conditions:linux_x86_64": ["//x11"],
     }),
 )

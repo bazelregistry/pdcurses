@@ -23,7 +23,7 @@
 #define HAVE_UNISTD_H 1
 #define HAVE_TERMATTRS 1
 
-#include <curses.h>
+#include "curses.h"
 
 #define ExitProgram exit
 

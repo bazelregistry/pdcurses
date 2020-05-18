@@ -1,6 +1,6 @@
 /* PDCurses */
 
-#include <curspriv.h>
+#include "curspriv.h"
 
 /*man-start**************************************************************
 
@@ -118,7 +118,7 @@ panel
 
 **man-end****************************************************************/
 
-#include <panel.h>
+#include "panel.h"
 #include <stdlib.h>
 
 PANEL *_bottom_panel = (PANEL *)0;

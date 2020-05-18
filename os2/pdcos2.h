@@ -11,7 +11,7 @@
 #define INCL_MOU
 #include <os2.h>
 
-#include <curspriv.h>
+#include "curspriv.h"
 
 extern ULONG pdc_last_blink;
 extern short pdc_curstoreal[16];

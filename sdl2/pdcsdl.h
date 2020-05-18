@@ -5,7 +5,7 @@
 # include <SDL_ttf.h>
 #endif
 
-#include <curspriv.h>
+#include "curspriv.h"
 
 #ifdef PDC_WIDE
 PDCEX  TTF_Font *pdc_ttffont;

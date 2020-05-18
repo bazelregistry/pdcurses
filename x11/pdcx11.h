@@ -4,7 +4,7 @@
 # include "config.h"
 #endif
 
-#include <curspriv.h>
+#include "curspriv.h"
 
 #ifdef HAVE_UNISTD_H
 # include <unistd.h>

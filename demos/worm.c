@@ -52,7 +52,7 @@ Options:
         -t                      make worms leave droppings
 */
 
-#include <curses.h>
+#include "curses.h"
 #include <stdlib.h>
 #include <time.h>
 

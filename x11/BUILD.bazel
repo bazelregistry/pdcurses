@@ -1,11 +1,14 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
-    name = "pdcurses",
+    name = "x11",
     visibility = ["//:__pkg__"],
     hdrs = glob(["*.h"]),
     srcs = glob(["*.c", "*.h"]),
+    copts = ["-isystem /usr/include/X11"],
+    linkopts = ["-lX11", "-lXt", "-lXpm", "-lXmu", "-lXaw"],
     deps = [
         "//:hdrs",
+        "//common",
     ],
 )
